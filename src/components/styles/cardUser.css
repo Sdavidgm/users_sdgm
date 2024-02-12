@@ -1,0 +1,74 @@
+.container{
+    padding: 15px 10px;
+    width: 381px;
+    height: 274px;
+    border:solid 2px #E5E5E5; 
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+    position: relative;
+    box-shadow: -3px 3px 3px -3px  gray;
+    
+}
+.name_card{
+    color:#0F0F2D;
+    text-align: center;
+    font-size: 25px;
+}
+.list_card{
+    padding: 5px;
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item_card span:first-child{
+    color: #D3D3D3;
+    
+}
+.card_btn{
+   
+    display: flex;
+    justify-content:right;
+    gap: 5px
+}
+.btn_delete{
+    background-color: #d34848;
+    color: #fffafa ;
+    width: 43px;
+    height: 43px;
+    font-size: 20px;
+    border: solid 1px #D3D3D3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn_delete:hover{
+    background-color: #0a0404;
+    color: #ffffff ;
+    transform: scale(1.1);
+    transition: transform .25s;
+}
+.btn_edit{
+    background-color: #ccc9c9;
+    color: #6d6c6c ;
+    width: 43px;
+    height: 43px;
+    font-size: 20px;
+    border: solid 1px #D3D3D3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn_edit:hover{
+    background-color: #0a0404;
+    color: #ffffff ;
+    transform: scale(1.1);
+    transition: transform .25s;
+}
+.container hr{
+    border: solid 0.50px rgba(211, 208, 208, 0.185);
+    width: 98%;
+    margin: 0 auto;
+}

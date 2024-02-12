@@ -1,0 +1,55 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  *,
+  *::before,
+  *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    font-family: 'Quattrocento Sans', sans-serif;
+  }
+  body{
+    background-color: white;
+    color: black;
+  }
+ .app_container{
+    
+    display: flex;
+    justify-self:center;
+    flex-direction: column;
+
+  }
+  .app_info{
+    padding: 10px 50px;
+    display: flex;
+    justify-content:space-between;
+    
+  }
+  .app_name{
+    color: #0F0F2D;
+    font-size: 30px;
+    font-weight:700;
+  }
+  .app_btn{
+    background-color: #555A88;
+    color: white;
+    padding: 1px 6px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  .app_btn:hover{
+    transform: scale(1.05);
+    transition: transform .25s;
+  }
+  .app_user{
+    padding: 10px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
