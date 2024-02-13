@@ -39,6 +39,14 @@ const FormUser = ({createUser, editUser, updateUser, setEditUser, isOpen, setIsO
 
     const handleClose = () =>{
         setIsOpen(false);
+        reset({
+            email:'',
+            password:'',
+            first_name:'',
+            last_name:'',
+            birthday:'',
+            
+        });
     }
 
 
